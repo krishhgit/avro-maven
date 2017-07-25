@@ -12,7 +12,7 @@
   <url>https://github.com/alexholmes/avro-maven</url>
 
   <properties>
-    <jdkLevel>1.6</jdkLevel>
+    <jdkLevel>1.8</jdkLevel>
     <requiredMavenVersion>[2.1,)</requiredMavenVersion>
     <main.basedir>${project.basedir}</main.basedir>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -76,6 +76,7 @@
       </plugin>
     </plugins>
   </build>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.avro</groupId>
